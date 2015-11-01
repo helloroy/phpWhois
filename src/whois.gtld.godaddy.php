@@ -31,9 +31,9 @@ class godaddy_handler {
 
     function parse($data_str, $query) {
         $items = array(
-            'owner' => 'Registrant:',
-            'admin' => 'Administrative Contact',
-            'tech' => 'Technical Contact',
+            'owner' => 'Registrant Name:',
+            'admin' => 'Admin Name:',
+            'tech' => 'Tech Name:',
             'domain.name' => 'Domain Name:',
             'domain.nserver.' => 'Domain servers in listed order:',
             'domain.created' => 'Created on:',
